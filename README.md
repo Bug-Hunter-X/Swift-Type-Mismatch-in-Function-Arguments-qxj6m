@@ -1,0 +1,3 @@
+This repository demonstrates a common type mismatch error in Swift function arguments.  The `bug.swift` file contains the erroneous code, attempting to pass a Double to an Int function parameter. `bugSolution.swift` provides the correct implementation.
+
+The error occurs because Swift's type system is strict.  You cannot implicitly convert a Double to an Int.  The solution involves ensuring that the function's parameter types match the types of the arguments being passed.
